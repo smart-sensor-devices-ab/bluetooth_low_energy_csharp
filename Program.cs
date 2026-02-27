@@ -40,7 +40,6 @@ namespace SerialPortExample
 
                 Console.WriteLine($"Opened {portName} @ 57600 8N1 (CRLF).");
                 Console.WriteLine("Type AT commands and press Enter. Type q to quit.");
-                Console.WriteLine("Tip: try: AT, ATI, AT+GMR (depends on firmware)");
             }
             catch (Exception ex)
             {
